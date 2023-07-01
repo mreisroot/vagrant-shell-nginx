@@ -9,7 +9,7 @@ Vagrant.configure("2") do |config|
   end
 
   # Definir SO e rede
-  config.vm.box = "ubuntu/lunar64"
+  config.vm.box = "ubuntu/jammy64"
   config.vm.network "private_network", ip: "192.168.56.2"
 
   # Sincronizar pasta que contém um site estático
